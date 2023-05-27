@@ -1,0 +1,62 @@
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+a:hover + .caixa {
+    display: block;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: purple;
+}
+
+.caixa {
+    display: none;
+    background: yellow;
+    width: 150px;
+    height: 150px;
+}
+
+.caixa:hover {
+    background: green;
+    width: 50px;
+    height: 50px;
+}
+
+ul li:first-child {
+    color:brown;
+}
+
+ul li:last-child {
+    color:blue;
+}
+
+.exemplo1 p:first-child {
+    color: aqua;
+}
+
+.exemplo2 p:nth-child(5) {
+    color: orange;
+}
+
+/* pseudo-class consiste colocar : com o nome da classe que se quer usar, neste caso, hover quando o usuário passar o mouse no link ficará com aspecto modificado, pode ser aplicado para qualquer coisa, imagem, link... */
+
+/* Existe pseudo-classes específica apenas para a tag âncora <a> o visited, após o usuário clicar no link o mesmo ficará com caracteísticas diferentes conforme desejar estilizar.
+:active deixa o link com padrão diferente quando segura o clique no mouse */
+
+/*ul li:first-child deixa o primeiro filho estilizado, se quiser o último é só colocar last-child, pode ser aplicado a qualquer elemento */
+
+/* O nth-child recebe um valor, ou seja, será necessário quantificar aonde está o elemento que deseja estilizar
+.exemplo2 p:nth-child(5) {
+    color: orange;
+}
+mostra que na classe do exemplo2 apenas o parágrafo 5 receberá o valor orange */

@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    height: 200px;
+    background:yellow;
+    /*overflow: hidden; esconde o texto e deixa tudo dentro da caixa, porém o usuário não consegue ver o texto completo */
+    /*overflow: scroll; permite que seja colocada uma barra de rolagem, desta forma o usuário consegue ler todo texto de denteo da cx. */
+    /*overflow-x: hidden;  exclui a barra de rolagem da horizontal, é possível fazer com o y também */
+    overflow: auto; /*identifica por ele mesmo se vai ser necessáio a barra de rolagem ou não */
+}

@@ -1,0 +1,15 @@
+/*a {
+    display: inline-block; Deixa o outro elemento do lado e não ocupa a tela toda, mantém a caixa limitada
+    width: 150px;
+    height: 100px;
+}*/
+
+ul {
+    background: gray;
+    padding: 20px;
+}
+
+ul li {
+    display: inline; /*automaticamente retira o style "bolinhas" da lista*/
+    margin: 20px;
+}

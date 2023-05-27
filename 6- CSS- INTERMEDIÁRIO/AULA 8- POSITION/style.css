@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado {
+    position: fixed; /*faz com que o menu fique fixo, precisa do atributo top, para determinar a distância do topo, se quiser posicionar na base é só substituir por botton*/
+    left: 50px;
+    bottom: 50px;
+    background: black;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 12px;
+}
+
+.circulo {
+    position: absolute; /*faz ficar parado em um determinado lugar, atribuir valores para left, top, bottom se necessário*/
+    left: 100px;
+    top: 100px;
+    background: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    margin: 50px;
+    width: 300px;
+}

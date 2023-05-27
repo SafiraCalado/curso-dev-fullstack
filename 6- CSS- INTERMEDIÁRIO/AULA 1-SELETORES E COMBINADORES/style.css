@@ -1,0 +1,33 @@
+.exemplo {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.exemplo1 p.red {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 {  
+    color: blue;  /*a , é para aplicar a mesma regra para 1 ou mais seletores, funciona também p/ classe*/
+}
+
+.exemplo2 > p {
+    color: blue; /*o sinal > só aplica a regra para os filhos da class .exemplo2*/
+}
+
+.exemplo3 + p {
+    color: red; /*o sinal + pega o primeiro elemento irmão do .exemplo3*/
+}
+
+.exemplo4 ~ p {
+    color: green; /*o sinal ~ pegam o todos os irmãos do .exemplo4*/
+}

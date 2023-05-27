@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000);
+}
+    
+
+ul {
+    background: gray;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
+
+/*display: none; Tem a função de ocultar a lista da ul, retira também a área ocupada pela ul*/
+/*visibility: hidden; Tem a função de ocultar, poréma a área da ul permanece ocupada*/
+/*opacity: 0.5; os valores variam de 0 a 1, serve para deixar a ul opaca*/

@@ -1,0 +1,21 @@
+h1 {
+    text-shadow: 2px 2px 20px red; /*Sombra no texto*/
+}
+
+p {
+    color: green;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    /* font-variant: small-caps; variação das fontes. A times new roman por padrão, caso não tenha definido fonte, e ela tem variação*/
+    text-transform: uppercase;
+    text-indent: 50px; /*serve como o tab, com parágrafo no texto*/
+    word-spacing: 20px; /*Espaço entre as palavras do paarágrafo*/
+    line-height: 50px; /*Tamanho da altura de uma linha para outra*/
+}
+
+a {
+    text-decoration: line-through; /*none é para tirar a linha do link, por padrão é o underline, overline: a linha fica em cima e line-through a linha fica no meio*/
+    letter-spacing: 20px; /*Serve para aumentar o tamanho do espaço entre as letras */
+}

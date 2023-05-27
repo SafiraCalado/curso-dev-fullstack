@@ -1,0 +1,39 @@
+
+::selection {
+    color:blue;
+    background: gray;
+}
+
+p::first-line {
+    color: orange;
+}
+
+p::first-letter {
+    color:red;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(img/free-rocket-icon-1167-thumb.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+h1::after {
+    background: url(img/free-rocket-icon-1167-thumb.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    content: "";
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/*O pseudo-elemento é representado por :: com a descrição do que pretende modificar no elemento, neste exemplo usou o first-line, somente desta forma é possivel estilizar a primeira linha*/
+/* first-letter altera a primeira letra */
+/*pseudo-elemento ::before precisa obrigatoriamente do content, caso não utilize precisa conter em "" vazia. Para que a imagem fique do lado do h1 precisa atribuir valores de width e height, o content deve ser substituído pelo background da imagem, poém ele não aparece no documento, porque o before se comporta como inline, devendo mudar para block, e para que fique lado a lado modifica para display: inline-block. Mesmo assim não é possível vizualizar a imagem, devendo atribuir ao background tamanho usando background-size: cover; colocar magin para ajustar a distancia entre o h1 e a imagem. O pseudo-elemento ::after funciona do mesmo jeito, porém depois */
+/* ::selection modifica a cor da área que a pessoa seleciona no mouse, se limita ao background e color apenas /*
